@@ -1,0 +1,68 @@
+@import "../../variables.scss";
+
+.comment {
+  padding: $gutterSmall;
+  padding-top: 20px;
+
+  h1 {
+    font-size: 20px;
+    margin: 16px 0;
+    font-weight: 500;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $gutterSmall;
+
+  img {
+    width: 100%;
+    margin-bottom: $gutterSmall;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  button:nth-child(2) {
+    margin-left: $gutterSmall;
+  }
+  /* right align third button */
+  button:nth-child(3) {
+    margin-left: auto;
+  }
+}
+
+.replies {
+  padding-left: 20px;
+}
+
+@media (min-width: $tabletUp) {
+  h1 {
+    font-size: 24px;
+  }
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: $gutterSmall;
+
+    img {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: $desktopUp) {
+  .comment {
+    padding: $gutterMed;
+    padding-top: 0;
+  }
+  .replies {
+    padding-left: $gutterMed;
+    padding-top: $gutterMed;
+  }
+}

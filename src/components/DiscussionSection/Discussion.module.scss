@@ -1,0 +1,35 @@
+@import "../../variables.scss";
+
+.discussion {
+  padding: 10px;
+}
+
+.label {
+  background: $lightGray;
+  font-size: 14px;
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-left: $gutterSmall;
+  margin-top: $gutterSmall;
+}
+
+.comments {
+  font-weight: bold;
+  color: $darkGray;
+  padding: 15px;
+  background: #f2f2f2;
+  font-size: 14px;
+  margin: 20px 0 $gutterSmall;
+}
+
+@media (min-width: $desktopUp) {
+  .comments {
+    margin: 0 0 $gutterMed;
+  }
+  .label {
+    margin-left: $gutterMed;
+    margin-top: $gutterMed;
+    margin-bottom: $gutterMed;
+  }
+}

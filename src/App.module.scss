@@ -1,0 +1,57 @@
+@import "./variables.scss";
+
+.layout {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+header,
+main {
+  width: 100%;
+}
+
+.header {
+  border-bottom: $grayBorder;
+}
+
+main {
+  max-width: $desktopUp;
+}
+
+section,
+header {
+  background: white;
+}
+
+.footer {
+  height: 60px;
+  width: 100%;
+}
+
+@media (min-width: $tabletUp) {
+  main {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    grid-gap: $gutterSmall;
+    padding: $gutterSmall;
+    box-sizing: border-box;
+  }
+
+  section {
+    border: $grayBorder;
+    border-radius: 10px;
+  }
+
+  .sidePanel {
+    height: 600px;
+  }
+}
+
+@media (min-width: $desktopUp) {
+  main {
+    padding-top: $gutterMed;
+    grid-gap: $gutterMed;
+  }
+}
