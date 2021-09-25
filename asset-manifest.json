@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/discussion-board-page/static/css/main.4218f2de.chunk.css",
-    "main.js": "/discussion-board-page/static/js/main.128023e1.chunk.js",
-    "main.js.map": "/discussion-board-page/static/js/main.128023e1.chunk.js.map",
+    "main.css": "/discussion-board-page/static/css/main.8dee33e6.chunk.css",
+    "main.js": "/discussion-board-page/static/js/main.68d2c962.chunk.js",
+    "main.js.map": "/discussion-board-page/static/js/main.68d2c962.chunk.js.map",
     "runtime-main.js": "/discussion-board-page/static/js/runtime-main.0aa27036.js",
     "runtime-main.js.map": "/discussion-board-page/static/js/runtime-main.0aa27036.js.map",
     "static/js/2.df12525b.chunk.js": "/discussion-board-page/static/js/2.df12525b.chunk.js",
     "static/js/2.df12525b.chunk.js.map": "/discussion-board-page/static/js/2.df12525b.chunk.js.map",
     "index.html": "/discussion-board-page/index.html",
-    "static/css/main.4218f2de.chunk.css.map": "/discussion-board-page/static/css/main.4218f2de.chunk.css.map",
+    "static/css/main.8dee33e6.chunk.css.map": "/discussion-board-page/static/css/main.8dee33e6.chunk.css.map",
     "static/js/2.df12525b.chunk.js.LICENSE.txt": "/discussion-board-page/static/js/2.df12525b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0aa27036.js",
     "static/js/2.df12525b.chunk.js",
-    "static/css/main.4218f2de.chunk.css",
-    "static/js/main.128023e1.chunk.js"
+    "static/css/main.8dee33e6.chunk.css",
+    "static/js/main.68d2c962.chunk.js"
   ]
 }
